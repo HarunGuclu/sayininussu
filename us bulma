@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main
+{
+//sayının üssünü alan kod parçası
+	int a,b,i,sonuc=1;
+	printf("iki sayi giriniz \n");
+	scanf("%d%d",&a,&b);
+	for(i=0;i<b;i++){
+			sonuc*=a;
+		}
+	printf("sonuc= %d",sonuc);
+	return 0;
+}
